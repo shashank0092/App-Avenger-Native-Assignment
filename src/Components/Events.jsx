@@ -4,11 +4,11 @@ const Events = () => {
     return (
         <>
             <View className="flex flex-row gap-3 items-center mr-4 " >
-                <View className="flex items-center" >
+                <View className="flex items-center " >
                     <View>
                         <Text className="text-black font-light" >Fri</Text>
                     </View>
-                    <View className="bg-blue-800  items-center p-2  rounded-full " >
+                    <View className="bg-blue-800  items-center p-2  rounded-full " style={{width:35,height:35}} >
                         <Text className="text-white ">3</Text>
                     </View>
                 </View>

@@ -7,7 +7,7 @@ const LeftIcon = () => {
     console.log(filter,"shukla boi in left icon")
     return (
         <View>
-            <TouchableOpacity onPress={()=>setFilter(true)}  >
+            <TouchableOpacity onPress={()=>setFilter(!filter)}  >
                 <Anticons
                     name="filter"
                     size={30}
